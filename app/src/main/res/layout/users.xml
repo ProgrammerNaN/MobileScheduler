@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#e0e0e0"
+    tools:context="com.example.teleg.programm.Users_Activity">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        app:cardBackgroundColor="#2196F3"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/myImageViewText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Выберите пользователя системы"
+                android:textColor="#EEEEEE"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/account_a"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200sp"
+            android:onClick="registration"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/start_buttons"
+            android:text="@string/teacher"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/account_b"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/start_buttons"
+            android:onClick="active"
+            android:text="@string/student"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

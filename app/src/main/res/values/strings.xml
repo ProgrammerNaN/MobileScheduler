@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pocket Schedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_users_">Program</string>
+
+    <!-- Стартовые кнопки-->
+    <string name="student">Студент</string>
+    <string name="teacher">Преподаватель</string>
+
+    <!-- Заголовки и подписи на нижней панели навигации-->
+    <string name="schedule">Расписание</string>
+    <string name="news">Новости</string>
+    <string name="calender">Календарь</string>
+    <string name="tools">Настройки</string>
+    <string name="title_activity_main">Program</string>
+
+
+    <!-- экран приветсвтия-->
+    <string name="load">Приветсвуем вас. Идет загрузка, пожалуйста подождите.</string>
+
+    <!-- Новости  -->
+    <string name="title">Заголовок</string>
+    <string name="date">Дата</string>
+    <string name="mainText">Бла-бла-бла</string>
+
+
+    <!-- Настройки -->
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_ringtone">Мелодия</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="title_auto_upload">Авто обновление</string>
+    <string name="summary_upload_over_wifi">Автоматическое обновление при подключении к wifi</string>
+
+    <string name="pref_title_notifications">Уведомления</string>
+    <string name="summary_choose_ringtone">Выбор мелодии</string>
+    <string name="pref_header_about">О программе</string>
+    <string name="summary_about">Мобильное приложение «Pocket Schedule» – это удобный сервис для оперативного
+доступа к информации о расписании и новостях РГРТУ с вашего смартфона. Приложение позволяет
+студентам университета отслеживать расписание и быть всегда в курсе происходящих событий через мобильные
+устройства. </string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Отпрвляйте свои отзывы и пожелания</string>
+    <string name="title_send_feedback">Обратная связь</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">Часто задаваемые вопросы</string>
+    <string name="url_faq">http://droidtune.com/607/faq-po-android-os-otvety-na-samye-chasto-zadavaemye-voprosy-ob-android.html</string>
+    <string name="title_version">Версия</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_new_notification_sound">Получать уведомления</string>
+    <string name="title_vibrate">Вибрация</string>
+    <string name="summary_vibrate">Вибрация при уведомлении</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="pref_title_general">Главные</string>
+    <string name="default_name_group"></string>
+    <string name="default_group_title">Группа</string>
+    <string name="default_group_text">Закрепить номер группы</string>
+
+    <!-- расписаине++ -->
+    <string name="numerator">Числитель</string>
+    <string name="denomerator">Знаменатель</string>
+    <string name="Type_Week" />
+    <string name="developers">Разработчики</string>
+    <string name="main_information_about_developers">Разработчики: Телегин Е.И. и Баконин Д.В.</string>
+    <string name="contact_information">Контактная информация</string>
+    <string name="address">Адрес</string>
+    <string name="addrass_information">390005, г. Рязань, ул. Гагарина, 59/1</string>
+    <string name="email">E-mail</string>
+    <string name="email_information">rgrtu@rsreu.ru</string>
+    <string name="site">Перейти к новостному порталу РГРТУ</string>
+
+    <!--регистрация-->
+    <string name="prompt_name">Имя</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Вход</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="error_invalid_email">Неверное имя</string>
+    <string name="error_invalid_password">Неверный пароль</string>
+    <string name="error_incorrect_password">Неверный формат пароля</string>
+
+    <string name="error_field_required">Это поле не может быть пустым</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_back">Назад</string>
+    <string name="url_map">https://yandex.ru/maps/org/ryazanskiy_gosudarstvenny_radiotekhnicheskiy_universitet_imeni_v_f_utkina/1553960425/?ll=39.723996%2C54.613499</string>
+    <string name="title_activity_registration">Sign in</string>
+
+    <!-- Calendar -->
+    <string name="sunday_text">Вс</string>
+    <string name="monday_text">Пн</string>
+    <string name="tuesday_text">Вт</string>
+    <string name="wednesday_text">Ср</string>
+    <string name="thursday_text">Чт</string>
+    <string name="friday_text">Пт</string>
+    <string name="saturday_text">Сб</string>
+    <string name="no_events">Нет запланированных событий</string>
+
+    <string name="invalid_attribute">Failed to create Calendar,\n\n invalid value of Attributes!,\n Please review &amp; try again!</string>
+    <string name="invalid_count">Failed to create Calendar,\n\n invalid eventCount,\n Please enter between 1 to 3</string>
+
+    <string name="enter_group">Введите номер гурппы</string>
+
+
+</resources>

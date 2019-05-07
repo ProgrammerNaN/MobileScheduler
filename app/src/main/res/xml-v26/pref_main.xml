@@ -1,0 +1,85 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_general">
+        <EditTextPreference
+            android:defaultValue="@string/default_name_group"
+            android:key="@string/key_gallery_name"
+            android:summary="@string/default_group_text"
+            android:title="@string/default_group_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_upload_over_wifi"
+            android:summary="@string/summary_upload_over_wifi"
+            android:title="@string/title_auto_upload" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:title="@string/title_new_notification_sound" />
+
+        <Preference
+            android:showDefault="true"
+            android:showSilent="true"
+            android:dependency="notifications_new_message"
+            android:key="@string/key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+        android:summary="@string/main_information_about_developers"
+        android:title="@string/developers" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/contact_information">
+
+        <Preference
+            android:summary="@string/addrass_information"
+            android:title="@string/address"
+            android:singleLineTitle="true">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_map" />
+        </Preference>
+
+        <Preference
+            android:summary="@string/email_information"
+            android:title="@string/email" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <Preference
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq"
+            android:singleLineTitle="true">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_faq" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

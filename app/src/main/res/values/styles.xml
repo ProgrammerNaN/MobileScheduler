@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#20252a</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTitleTextAppearance">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="RoundedCornerButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/start_buttons</item>
+        <item name="colorButtonNormal">#e7eaf9</item>
+        <item name="colorControlHighlight">#2196F3</item>
+    </style>
+
+    <style name="MyBox">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="MyBox2">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

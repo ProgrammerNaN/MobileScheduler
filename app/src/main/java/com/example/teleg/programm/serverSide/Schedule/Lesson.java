@@ -47,8 +47,8 @@ public class Lesson {
         return timeId;
     }
 
-    public void setTimeId(int timeId) {
-        this.timeId = timeId;
+    public void setTimeId(String timeId) {
+        this.timeId = Integer.parseInt(timeId);
     }
 
     public int getDuration() {

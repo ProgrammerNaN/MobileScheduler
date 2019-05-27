@@ -35,7 +35,7 @@ public class CalendarGridviewAdapter extends BaseAdapter {
         this.mEventList = items;
         mContext = c;
 
-        //firstDay = month.get(GregorianCalendar.DAY_OF_WEEK);
+        firstDay = month.get(GregorianCalendar.DAY_OF_WEEK);
     }
 
     public int getCount() {

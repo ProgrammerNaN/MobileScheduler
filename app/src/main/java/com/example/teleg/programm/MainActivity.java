@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
                         loadFragment(ScheduleFragmentMain.newInstance());
                         return true;
                     case R.id.action_news:
-                            mTextMessage.setText(R.string.news);
-                            loadFragment(NewsFragment.newInstance());
-                            return true;
+                        mTextMessage.setText(R.string.news);
+                        loadFragment(NewsFragment.newInstance());
+                        return true;
                     case R.id.action_calender:
                         mTextMessage.setText(R.string.calender);
                         loadFragment(MainCalendarFragment.newInstance());
@@ -66,16 +66,17 @@ public class MainActivity extends AppCompatActivity {
     private void loadFragment(Fragment fragment) {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
-        if (fragment.equals(MainCalendarFragment.newInstance())) {
-            fragment.onDestroy();
-            fragment.onDetach();
-            fragment.onStart();
+        //if (fragment.equals(MainCalendarFragment.newInstance())) {
+            //fragment.onStop();
+            //fragment.onDestroy();
+            //fragment.onDetach();
+            //fragment.onStart();
+            //ft.replace(R.id.fl_content, fragment);
+            //ft.commit();
+        //}else {
             ft.replace(R.id.fl_content, fragment);
             ft.commit();
-        }else {
-            ft.replace(R.id.fl_content, fragment);
-            ft.commit();
-        }
+        //}
 
     }
 
